@@ -11,9 +11,11 @@ Radar unit: https://www.aliexpress.com/item/1005001737289310.html?spm=a2g0o.stor
 ![image](https://user-images.githubusercontent.com/68975498/128783648-4a6ced84-a2f3-4fd2-8bb7-fcb01851fa94.png)
 
 
-The device can be driven via a basic 12 volt supply (it has a wider range but 12 volts seems adequate for an extended distance). You will need to ground your microcontroller with the RS485 converter (shown below) input ONLY. No need to ground the input & microcontroller ground directly with the end point [device] - although if powering the device and MC from the same source then common ground is ok.
+The device can be driven via a basic 12 volt supply, the power used in the device I bought was minimal, less than 100ma @12v. (it has a wider voltage range but 12 volts seems adequate for an extended distance). You will need to ground your microcontroller with the RS485 converter (shown below) input ONLY. No need to ground the input & microcontroller ground directly with the end point [device] - although if powering the device and MC from the same source then common ground is ok.
 
-The A+,B- and ground connected to a MAX13487 chip based converter. This avoids the issue of switching from input to output required normally with MAX 485 chips. The converter can be bought cheaply on Amazon or AliExpress etc.
+
+
+The A+,B- and ground connected to a MAX13487 chip based converter. This chip uses automatic switching of receive and transmit which avoids the issue of switching from input to output found with MAX 485 chips. The converter can be bought cheaply on Amazon or AliExpress etc.
 
 
 ![image](https://user-images.githubusercontent.com/68975498/128780959-dac594ff-e7dd-4862-ad6c-0894299a7a4b.png)
