@@ -20,7 +20,7 @@ The A+,B- and ground connected to a MAX13487 chip based converter. This chip use
 
 ![image](https://user-images.githubusercontent.com/68975498/128780959-dac594ff-e7dd-4862-ad6c-0894299a7a4b.png)
 
-Note: the above RS485 converter does not use common 0.10" pitch - however using headers you can attach it to a perforated board for prototyping...
+Note: the above RS485 converter does not use common 0.10" pitch - however using headers you can ["persuade" it to] attach to a perforated board for prototyping...
 
 The above RS485 converter also handles 3.3v supply and input so works well if you use an ESP32 based device instead of an Arduino. Always be careful if using qa 3.3v device!
 
